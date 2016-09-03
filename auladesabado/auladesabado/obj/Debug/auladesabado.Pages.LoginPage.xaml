@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="auladesabado.LoginPage" Title="Login" BackgroundColor="White">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+		   <Entry x:Name="TxtLogin" WidthRequest="300" HeightRequest="40" Placeholder="Nome do usuario" PlaceholderColor="Silver" TextColor="White" BackgroundColor="Blue"/>
+		   <Entry x:Name="TxtSenha" WidthRequest="300" HeightRequest="40" Placeholder="Senha do usuario" PlaceholderColor="Silver" TextColor="White" BackgroundColor="Blue" IsPassword="true"/>
+		   <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+		       <Button x:Name="btnLogin" Clicked="Handle_Clicked" WidthRequest="60"  HeightRequest="50"  Text="Login" BackgroundColor="Blue" TextColor="White"></Button>
+		       <Button x:Name="btnCancelar" WidthRequest="70"  HeightRequest="30"  Text="Cancelar" BackgroundColor="Red" TextColor="White"></Button>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

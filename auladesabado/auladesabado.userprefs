@@ -18,10 +18,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid AndroidDesignerPreferredDevice="Nexus 4" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A61C458D-BEE1-43CF-B965-8716FF9DC6D8" />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.487900F4-0224-4074-9EF0-D69C938B88D5" />
+  <DisabledProjects>
+    <String>Droid/auladesabado.Droid.csproj</String>
+  </DisabledProjects>
 </Properties>

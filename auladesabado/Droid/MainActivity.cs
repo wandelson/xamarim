@@ -8,6 +8,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+using Acr.UserDialogs;
+
 namespace auladesabado.Droid
 {
 	[Activity(Label = "auladesabado.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -19,6 +21,8 @@ namespace auladesabado.Droid
 			ToolbarResource = Resource.Layout.Toolbar;
 
 			base.OnCreate(bundle);
+
+			UserDialogs.Init(this);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 

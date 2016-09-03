@@ -4,11 +4,23 @@ namespace auladesabado
 {
 	public partial class App : Application
 	{
+
+		private static NavigationPage navigationPage ;
+
+
+		public static NavigationPage  NavigationPage
+		{
+			get { return navigationPage;  }
+			set { navigationPage = value;}
+
+		}
+
+
 		public App()
 		{
 			InitializeComponent();
 
-			MainPage = new auladesabadoPage();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()
