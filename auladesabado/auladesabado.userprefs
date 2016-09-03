@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="21" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="auladesabado" expanded="True">
+            <Node name="auladesabado.iOS" expanded="True">
+              <Node name="LaunchScreen.storyboard" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A61C458D-BEE1-43CF-B965-8716FF9DC6D8" />
+</Properties>
