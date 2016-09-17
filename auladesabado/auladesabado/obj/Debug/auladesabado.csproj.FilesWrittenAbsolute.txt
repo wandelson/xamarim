@@ -31,3 +31,4 @@
 /Users/Guest/Documents/fiap/xamarim/auladesabado/auladesabado/bin/Debug/System.Net.Http.Extensions.dll
 /Users/Guest/Documents/fiap/xamarim/auladesabado/auladesabado/bin/Debug/Plugin.Geolocator.dll
 /Users/Guest/Documents/fiap/xamarim/auladesabado/auladesabado/bin/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/Guest/Documents/fiap/xamarim/auladesabado/auladesabado/bin/Debug/Xamarin.Forms.Maps.dll

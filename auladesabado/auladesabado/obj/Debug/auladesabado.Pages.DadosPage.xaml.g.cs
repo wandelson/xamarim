@@ -17,6 +17,9 @@ namespace auladesabado {
     public partial class DadosPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Maps.Map map;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry txtLat;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -31,6 +34,7 @@ namespace auladesabado {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(DadosPage));
+            map = this.FindByName <global::Xamarin.Forms.Maps.Map>("map");
             txtLat = this.FindByName <global::Xamarin.Forms.Entry>("txtLat");
             txtLong = this.FindByName <global::Xamarin.Forms.Entry>("txtLong");
             txtTemp = this.FindByName <global::Xamarin.Forms.Entry>("txtTemp");

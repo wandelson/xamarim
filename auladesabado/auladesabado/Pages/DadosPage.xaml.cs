@@ -5,6 +5,7 @@ using Acr.UserDialogs;
 using Newtonsoft.Json;
 using Plugin.Geolocator;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace auladesabado
 {
@@ -33,6 +34,18 @@ namespace auladesabado
 
 			string url = "http://api.geonames.org/findNearByWeatherJSON?lat=" + lat + "&lng=" + log + "&username=deznetfiap";
 
+			var maps = MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude),Distance.FromMiles(1));
+
+			map.MoveToRegion(maps);
+
+			var pin = new Pin { 
+				Type = PinType.Place,
+				Position = new Position(position.Latitude, position.Longitude),
+				Label =  "Onde estou",
+				Address = "Terra do Nunca"
+			};
+
+			map.Pins.Add(pin);
 
 
 		 //	DisplayAlert("latitude e long","lat:" + lat + "," + "long:" + log,"ok");
