@@ -17,24 +17,28 @@ namespace auladesabado {
     public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry TxtLogin;
+        private global::Xamarin.Forms.Entry txtLogin;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry TxtSenha;
+        private global::Xamarin.Forms.Entry txtSenha;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button btnLogin;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button btnCancelar;
+        private global::Xamarin.Forms.Button btnCadastrar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnRecuperarSenha;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(LoginPage));
-            TxtLogin = this.FindByName <global::Xamarin.Forms.Entry>("TxtLogin");
-            TxtSenha = this.FindByName <global::Xamarin.Forms.Entry>("TxtSenha");
+            txtLogin = this.FindByName <global::Xamarin.Forms.Entry>("txtLogin");
+            txtSenha = this.FindByName <global::Xamarin.Forms.Entry>("txtSenha");
             btnLogin = this.FindByName <global::Xamarin.Forms.Button>("btnLogin");
-            btnCancelar = this.FindByName <global::Xamarin.Forms.Button>("btnCancelar");
+            btnCadastrar = this.FindByName <global::Xamarin.Forms.Button>("btnCadastrar");
+            btnRecuperarSenha = this.FindByName <global::Xamarin.Forms.Button>("btnRecuperarSenha");
         }
     }
 }

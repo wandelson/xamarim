@@ -12,12 +12,14 @@ namespace auladesabado
 			InitializeComponent();
 		}
 
-		void Handle_Clicked(object sender, System.EventArgs e)
+		void Cadastrar_Click(object sender, System.EventArgs e)
 		{
 
-			App.Current.MainPage = new LoginPage();
+
 
 		}
+
+
 	}
 }
 

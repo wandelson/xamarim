@@ -3,9 +3,9 @@
 		x:Class="auladesabado.TabbedMainPage"
 		xmlns:mypages="clr-namespace:auladesabado;assembly=auladesabado">
 	
-		<TabbedPage.Children>
-     		<mypages:RecuperarSenhaTabPage Title="Recuperar"></mypages:RecuperarSenhaTabPage>
-		    <mypages:CadastrarMainPage Title="Cadastrar" ></mypages:CadastrarMainPage>
+		<TabbedPage.Children>     	
+		    <mypages:EnderecoPage Title="Endereço" ></mypages:EnderecoPage>
+		    <mypages:DadosPage Title="Dados" ></mypages:DadosPage>
 		</TabbedPage.Children>
 
 </TabbedPage>

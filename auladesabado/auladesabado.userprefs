@@ -1,26 +1,31 @@
 ﻿<Properties StartupItem="iOS/auladesabado.iOS.csproj">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="auladesabado/Pages/EnderecoPage.xaml.cs">
     <Files>
-      <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
-      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="21" Column="26" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="7" Column="65" />
+      <File FileName="auladesabado/App.xaml" Line="1" Column="1" />
+      <File FileName="auladesabado/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="auladesabado/Pages/CadastrarMainPage.xaml.cs" Line="18" Column="4" />
+      <File FileName="auladesabado/Pages/TabbedMainPage.xaml" Line="12" Column="1" />
+      <File FileName="auladesabado/Pages/LoginPage.xaml.cs" Line="10" Column="3" />
+      <File FileName="auladesabado/Pages/RecuperarSenhaTabPage.xaml" Line="15" Column="24" />
+      <File FileName="auladesabado/Pages/RecuperarSenhaTabPage.xaml.cs" Line="21" Column="28" />
+      <File FileName="auladesabado/Pages/TabbedMainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="auladesabado/Pages/LoginPage.xaml" Line="7" Column="31" />
+      <File FileName="auladesabado/Pages/CadastrarMainPage.xaml" Line="19" Column="26" />
+      <File FileName="auladesabado/obj/Debug/auladesabado.Pages.LoginPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="auladesabado/Pages/DadosPage.xaml" Line="1" Column="1" />
+      <File FileName="auladesabado/Pages/DadosPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="auladesabado/Pages/EnderecoPage.xaml" Line="5" Column="77" />
+      <File FileName="auladesabado/Pages/EnderecoPage.xaml.cs" Line="39" Column="16" />
+      <File FileName="auladesabado/Models/CepResultModel.cs" Line="7" Column="4" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="auladesabado" expanded="True">
-            <Node name="auladesabado.iOS" expanded="True">
-              <Node name="LaunchScreen.storyboard" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.487900F4-0224-4074-9EF0-D69C938B88D5" />
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8AD4EF7D-EB27-4E4A-A05D-D19C42F6D24B" />
   <DisabledProjects>
     <String>Droid/auladesabado.Droid.csproj</String>
   </DisabledProjects>

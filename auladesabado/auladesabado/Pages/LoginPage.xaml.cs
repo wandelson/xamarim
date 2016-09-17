@@ -8,21 +8,29 @@ namespace auladesabado
 {
 	public partial class LoginPage : ContentPage
 	{
-		async void Handle_Clicked(object sender, System.EventArgs e)
+		async void entrarClick(object sender, System.EventArgs e)
 		{
-			UserDialogs.Instance.ShowLoading("Logando como " + TxtLogin.Text);
+			UserDialogs.Instance.ShowLoading("Logando como " + txtLogin.Text);
 
 			await Task.Delay(3000);
 
 			UserDialogs.Instance.HideLoading();
 
 
-			Navigation.InsertPageBefore(new TabbedMainPage(), this);
+		/*	Navigation.InsertPageBefore(new TabbedMainPage(), this);
 
-			await Navigation.PopAsync();
+			await Navigation.PopAsync();*/
+
+			await Navigation.PushAsync(new NavigationPage(new TabbedMainPage()));
 
 		
 		}
+
+	     async void recuperarClick(object sender, System.EventArgs e)
+		{
+			await Navigation.PushModalAsync(new NavigationPage(new RecuperarSenhaTabPage()));
+		}
+
 
 		public LoginPage()
 		{

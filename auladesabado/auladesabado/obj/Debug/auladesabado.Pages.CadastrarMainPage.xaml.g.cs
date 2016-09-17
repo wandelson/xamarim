@@ -17,8 +17,24 @@ namespace auladesabado {
     public partial class CadastrarMainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry TxtLogin;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry TxtPassword;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCadastrar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCancelar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CadastrarMainPage));
+            TxtLogin = this.FindByName <global::Xamarin.Forms.Entry>("TxtLogin");
+            TxtPassword = this.FindByName <global::Xamarin.Forms.Entry>("TxtPassword");
+            btnCadastrar = this.FindByName <global::Xamarin.Forms.Button>("btnCadastrar");
+            btnCancelar = this.FindByName <global::Xamarin.Forms.Button>("btnCancelar");
         }
     }
 }

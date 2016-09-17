@@ -17,8 +17,20 @@ namespace auladesabado {
     public partial class RecuperarSenhaTabPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtEmail;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnRecuperar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCancelar;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RecuperarSenhaTabPage));
+            txtEmail = this.FindByName <global::Xamarin.Forms.Entry>("txtEmail");
+            btnRecuperar = this.FindByName <global::Xamarin.Forms.Button>("btnRecuperar");
+            btnCancelar = this.FindByName <global::Xamarin.Forms.Button>("btnCancelar");
         }
     }
 }

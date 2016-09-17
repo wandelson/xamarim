@@ -22,3 +22,4 @@
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.Interface.dll
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.dll
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.dll.mdb
+/Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

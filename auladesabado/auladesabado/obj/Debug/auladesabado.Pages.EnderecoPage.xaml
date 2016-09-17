@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="auladesabado.EnderecoPage">
+	<ContentPage.Content>
+      <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"  BackgroundColor="Gray">         
+            <Entry x:Name="cep" WidthRequest="100" Unfocused="Handle_Unfocused"  HorizontalOptions="FillAndExpand"/>
+            <Entry x:Name="rua" WidthRequest="200" IsEnabled="false" />
+			<Entry x:Name="comp" WidthRequest="200" IsEnabled="false" />
+			<Entry x:Name="bairro" WidthRequest="200" IsEnabled="false" />
+			<Entry x:Name="cidade" WidthRequest="200" IsEnabled="false" />							          
+			<Entry x:Name="uf" WidthRequest="200" IsEnabled="false" />	
+         </StackLayout>           
+   </ContentPage.Content>		
+</ContentPage>
