@@ -23,3 +23,5 @@
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.dll
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/auladesabado.dll.mdb
 /Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.dll
+/Users/Guest/Documents/fiap/xamarim/auladesabado/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.dll

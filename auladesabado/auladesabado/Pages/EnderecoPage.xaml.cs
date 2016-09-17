@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Net.Http;
 using Acr.UserDialogs;
+using Plugin.Geolocator;
 
 using Xamarin.Forms;
 
@@ -13,7 +14,9 @@ namespace auladesabado
 		public EnderecoPage()
 		{
 			InitializeComponent();
+		
 		}
+
 
 
 

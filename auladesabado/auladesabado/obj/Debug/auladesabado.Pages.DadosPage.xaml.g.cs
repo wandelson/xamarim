@@ -17,8 +17,24 @@ namespace auladesabado {
     public partial class DadosPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtLat;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtLong;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtTemp;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtCountry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(DadosPage));
+            txtLat = this.FindByName <global::Xamarin.Forms.Entry>("txtLat");
+            txtLong = this.FindByName <global::Xamarin.Forms.Entry>("txtLong");
+            txtTemp = this.FindByName <global::Xamarin.Forms.Entry>("txtTemp");
+            txtCountry = this.FindByName <global::Xamarin.Forms.Entry>("txtCountry");
         }
     }
 }
