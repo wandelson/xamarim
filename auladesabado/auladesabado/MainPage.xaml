@@ -31,6 +31,8 @@
 			</ListView.ItemTemplate>
 
 		</ListView>
+	
+		
 		<Button Text="Excluir Tudo" TextColor="White" BackgroundColor="Red"
 			Command="{Binding DeleteAllCommand}"/>
 		

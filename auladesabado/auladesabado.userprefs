@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{734881E8-6C5D-46DD-911D-65A473E2887F}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="auladesabado/ViewModels/MainPageViewModel.cs">
     <Files>
       <File FileName="auladesabado/App.xaml.cs" Line="28" Column="36" />
       <File FileName="auladesabado/Pages/CadastrarMainPage.xaml.cs" Line="18" Column="4" />
@@ -14,15 +14,17 @@
       <File FileName="auladesabado/Models/Database.cs" Line="92" Column="4" />
       <File FileName="auladesabado/Models/Person.cs" Line="21" Column="37" />
       <File FileName="iOS/Services/SQLiteService.cs" Line="45" Column="4" />
-      <File FileName="auladesabado/ViewModels/BaseViewModel.cs" Line="21" Column="4" />
-      <File FileName="auladesabado/ViewModels/MainPageViewModel.cs" Line="92" Column="22" />
+      <File FileName="auladesabado/ViewModels/BaseViewModel.cs" Line="8" Column="15" />
+      <File FileName="auladesabado/ViewModels/MainPageViewModel.cs" Line="126" Column="1" />
       <File FileName="auladesabado/MainPage.xaml.cs" Line="17" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/wans/Documents/git/xamarim/auladesabado/auladesabado/ViewModels/MainPageViewModel.cs" line="122" column="1" />
+      <Breakpoint file="/Users/wans/Documents/git/xamarim/auladesabado/auladesabado/ViewModels/MainPageViewModel.cs" line="138" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E559F54-F92B-4AC0-96DB-079613EB87B5" />

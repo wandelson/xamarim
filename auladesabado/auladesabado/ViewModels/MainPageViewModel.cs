@@ -123,7 +123,7 @@ namespace auladesabado
 			if (int.TryParse((string)obj, out age))
 			{
 
-				var result =  database.Query<Person>("SELECT * FROM Person Age > ? ", new object[] { age });
+				var result =  database.Query<Person>("SELECT * FROM Person WHERE Age > ? ", new object[] { age });
 				Records.Clear();
 
 				foreach (var person in result)
@@ -136,7 +136,7 @@ namespace auladesabado
 		void FilterByGender(object obj)
 		{
 			var gender = ((string)obj) == "Mulher" ? Gender.Mulher : Gender.Homem;
-			var result =  database.Query<Person>("SELECT * FROM Person Gender = ? ", new object[] { gender });
+			var result =  database.Query<Person>("SELECT * FROM Person WHERE Gender = ? ", new object[] { gender });
 
 			Records.Clear();
 
