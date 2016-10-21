@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{734881E8-6C5D-46DD-911D-65A473E2887F}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="auladesabado/App.xaml.cs" Line="25" Column="30" />
+      <File FileName="auladesabado/App.xaml.cs" Line="28" Column="36" />
       <File FileName="auladesabado/Pages/CadastrarMainPage.xaml.cs" Line="18" Column="4" />
       <File FileName="auladesabado/Pages/LoginPage.xaml.cs" Line="10" Column="3" />
       <File FileName="auladesabado/Pages/RecuperarSenhaTabPage.xaml.cs" Line="21" Column="28" />
@@ -25,8 +25,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.28EAB71E-84F2-4840-A5C0-BC87E1688316" />
-  <DisabledProjects>
-    <String>Droid/auladesabado.Droid.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.auladesabado.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E559F54-F92B-4AC0-96DB-079613EB87B5" />
 </Properties>
